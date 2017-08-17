@@ -2,6 +2,7 @@
 using namespace cv;
 
 int main(int argc, char** argv) {
+	//second commit
 	Mat inputImage = imread("/home/miguel/test2.png");
 	imshow("Input Image", inputImage);
 	
