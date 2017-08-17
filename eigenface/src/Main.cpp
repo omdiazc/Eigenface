@@ -6,6 +6,7 @@ int main(int argc, char** argv) {
 	Mat inputImage = imread("/home/miguel/test.png");
 	imshow("Input Image", inputImage);
 	
+	int a = 3;
 	waitKey(0);
 	return 0;
 }
